@@ -236,7 +236,7 @@ function nextSlide3() {
     sliderCount3++;
     if (sliderCount3 >= sliderImages3.length) sliderCount3 = 0
     rollSlider3()
-    
+    thisSlide3(sliderCount3)
 }
 
 
@@ -272,7 +272,7 @@ function prevSlide3() {
     sliderCount3--;
     if (sliderCount3 < 0) sliderCount3 = sliderImages3.length - 1;
     rollSlider3();
-   
+    thisSlide3(sliderCount3)
 
 }
 
