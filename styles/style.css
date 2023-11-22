@@ -2271,7 +2271,7 @@ input[type="radio"]:focus,
 .clients__logos-wrapper {
     display: flex;
     align-items: center;
-    margin-top: 60px;
+    margin-top: 80px;
     margin-bottom: 100px;
     vertical-align: top;
 
