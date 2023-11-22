@@ -35,7 +35,7 @@ facebkFooter.addEventListener("touchend", function (e) {
 })
 
 instaFooter.addEventListener("touchstart", function () {
-    instaFooter.setAttribute("src", "./images/ins_hover.svg")
+    instaFooter.setAttribute("src", "./images/INSHOVER.svg")
 })
 
 instaFooter.addEventListener("touchend", function (e) {
