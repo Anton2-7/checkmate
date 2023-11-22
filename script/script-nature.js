@@ -5,6 +5,58 @@ let textFooter = document.querySelector(".footer__red-cat-name")
 let footerRedCat = document.querySelector(".footer__red-cat-logo")
 let footerRedCatLogo = document.querySelector(".footer__red-cat-logo")
 let imgSource = document.querySelector(".footer__red-cat-logo")
+let tgFooter = document.querySelector(".tg__footer-icon")
+let facebkFooter = document.querySelector(".fc__footer-icon")
+let instaFooter = document.querySelector(".in__footer-icon")
+let vkFooter = document.querySelector(".vk__footer-icon")
+
+
+tgFooter.addEventListener("touchstart", function () {
+    tgFooter.setAttribute("src", "./images/TG_hover.svg")
+})
+
+tgFooter.addEventListener("touchend", function (e) {
+    e.preventDefault()
+    tgFooter.setAttribute("src", "./images/Telegram.svg")
+    window.location.href = "https://t.me/tvtumanova"
+
+})
+
+facebkFooter.addEventListener("touchstart", function () {
+    facebkFooter.setAttribute("src", "./images/Facebook_hover.svg")
+})
+
+
+facebkFooter.addEventListener("touchend", function (e) {
+    e.preventDefault()
+    facebkFooter.setAttribute("src", "./images/Facebook.svg")
+    window.location.href = "https://www.facebook.com/tvtumanova"
+
+})
+
+instaFooter.addEventListener("touchstart", function () {
+    instaFooter.setAttribute("src", "./images/ins_hover.svg")
+})
+
+instaFooter.addEventListener("touchend", function (e) {
+    e.preventDefault()
+    instaFooter.setAttribute("src", "./images/Instagram.svg")
+    window.location.href = "https://www.instagram.com/tvtumanova"
+})
+
+
+vkFooter.addEventListener("touchstart", function () {
+    vkFooter.setAttribute("src", "./images/VK_hover.svg")
+})
+
+vkFooter.addEventListener("touchend", function (e) {
+    e.preventDefault()
+    vkFooter.setAttribute("src", "./images/VK.svg")
+    window.location.href = "https://vk.com/tvtumanova"
+
+})
+
+
 
 burgerMenu.addEventListener('click', function () {
     burgerMenu.classList.toggle('active');
