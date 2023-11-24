@@ -1206,6 +1206,8 @@
         flex-direction: column;
     }
 
+}
+@media (max-width: 920px) {
     .mentor__main {
         background: url('../images/image\ 138.png') contain no-repeat;
         height: auto;
@@ -1213,7 +1215,6 @@
         max-height: 2000px;
         max-width: 100%;
     }
-
 }
 
 @media (max-width:892px) {
